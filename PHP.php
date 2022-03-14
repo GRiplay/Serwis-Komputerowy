@@ -1,7 +1,7 @@
 <?php
     //ob_start();
 
-    if(!$_COOKIE['naszastrona']=="1")
+    if(!$_COOKIE['Serwis Komputerowy']=="1")
     {
         $plik="licz.txt";
 
