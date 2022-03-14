@@ -1,0 +1,127 @@
+body{
+  margin:0;
+  font-family: 'Didact Gothic', sans-serif;
+  background-color: #171C21;
+}
+
+.WebSite{
+  width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.Menu{
+  width:800px;
+  margin-left:auto;
+  margin-right:auto;
+  height:70px;
+  background-color: #171C21;
+}
+.Menu ul{
+  margin:0;
+  padding:10px 0 0 0;
+  text-align:center;
+}
+.Menu li{
+  display: inline-block;
+  text-align:center;
+  width:160px;
+}
+.Menu a{
+  text-decoration:none;
+  display:block;
+  color:white;
+  font-size:16px;
+  padding:6px;
+  transition: 0.2s;
+  border-radius:2px;
+}
+.Menu a:hover{
+  transition: 0.2s;
+  transform: scale(0.90);
+  background-color:#0060FF;
+  box-shadow:2px 4px 1px 0px black;
+}
+
+.Pierwszy{
+ width:100%;
+ height:460px;
+ margin-left:42px;
+ background-image: url("Komp.jpg");
+}
+.Pierwszy button{
+  color:white;
+  font-size:18px;
+  display:block;
+  width:120px;
+  background-color:#012d74;
+  border:none;
+  border-radius:2px;
+  padding:4px;
+  margin:25px 0 0 410px;
+  cursor:pointer;
+  transition: 0.2s;
+}
+.Pierwszy button:hover{
+  transition: 0.2s;
+  transform: scale(1.1);
+  box-shadow:2px 2px 1px 1px black;
+}
+
+.Blok{
+height:200px;
+width:50%;
+margin-top:30px;
+}
+.Blok p{
+  width:420px;
+  color:white;
+  float:left;
+  margin-left:30px;
+  font-size:16px;
+  text-align:justify;
+}
+.Blok b{
+  font-size:22px;
+}
+
+.Trzeci{
+  width:60%;
+  height:200px;
+  margin:30px 0 40px 280px;
+  clear:both;
+}
+.Trzeci table{
+  color:white;
+  font-size:16px;
+}
+.Trzeci td{
+  padding:5px;
+}
+.Trzeci table,th,td{
+  padding:2px;
+  border-radius:2px;
+}
+
+
+.Kontakt table,tr,td{
+  border: none;
+}
+
+#Photo{
+  width:110px;
+  float:left;
+}
+
+footer{
+  width:100%;
+  height:50px;
+  color:white;
+  clear:both;
+  margin-top:50px;
+}
+footer p{
+  text-align:center;
+  margin:0;
+  padding-top:12px;
+}
