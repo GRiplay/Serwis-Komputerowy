@@ -47,7 +47,7 @@ body{
  width:100%;
  height:460px;
  margin-left:42px;
- background-image: url("komp.jpg");
+ background-image: url(komp.jpg);
 }
 .Pierwszy button{
   color:white;
