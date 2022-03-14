@@ -1,3 +1,7 @@
+<?php
+include ('licz.txt');
+?>
+
 <html>
 
 <head>
@@ -16,9 +20,7 @@
 
 <body onload="Funkcja()">
 
-<?php
-include ('licz.txt');
-?>
+
 
 <script src="Skrypt.js"></script>
 
